@@ -35,7 +35,5 @@ class Inheritor extends Operations {
 		// since the parent method is not static from the parent, 
 		// here I access it using the parent Class
 		Operations.multiply(one, two);
-		
-		
 	}
 }

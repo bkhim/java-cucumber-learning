@@ -33,6 +33,7 @@ class InheritorTwo extends Operations {
 	    one = input.nextInt();  // read the user input
 	    System.out.println("Type a second number:"); // number 2
 	    two = input.nextInt();  // read the user input
+	    input.close(); // close the scanner, prevent resource leak
 		// create the Operations object
 		OperationsTwo operation = new OperationsTwo();
 		
